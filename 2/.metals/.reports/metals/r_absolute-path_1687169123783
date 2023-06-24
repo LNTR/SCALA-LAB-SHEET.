@@ -1,0 +1,4 @@
+Uri: vscode-local-history:/d%3A/Campus/Year%202/Semester%201/Functional%20Programming/Tutorials/2/1.scala?%7B%22location%22%3A%22file%3A%2F%2F%2Fc%3A%2FUsers%2FLakmitha%2FAppData%2FRoaming%2FCode%2FUser%2FHistory%2F4de0d4ac%2Fg6UF.scala%22%2C%22associatedResource%22%3A%22file%3A%2F%2F%2Fd%3A%2FCampus%2FYear%202%2FSemester%201%2FFunctional%20Programming%2FTutorials%2F2%2F1.scala%22%7D
+
+Error message: Provider "vscode-local-history" not installed
+Error: java.nio.file.FileSystemNotFoundException: Provider "vscode-local-history" not installed
