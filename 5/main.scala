@@ -28,6 +28,11 @@ object  Q3 extends App{
     def toUpper(string:String)=string.toUpperCase()
     def toLower(string:String)=string.toLowerCase()
     def formatNames(name:String,function:String=>String):String=function(name)
+    
     println(formatNames("Niroshan",toUpper))
+    println(formatNames("Benny",toLower))
+    println(formatNames("Saman",toUpper))
+    println(formatNames("Kumara",toLower))
+
 
 }
