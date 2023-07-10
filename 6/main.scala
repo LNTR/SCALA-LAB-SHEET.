@@ -29,12 +29,13 @@ object Q2 extends App{
     def primeSeq(n:Int):Unit={
         if ((n>=2)&&isPrime(n)){
             print(f"${n},")
-        }
-        if (n>0){
+            primeSeq(n-1)
+
+        } else if (n>2){
             primeSeq(n-1)
         }
     }
-    primeSeq(9)
+    primeSeq(20)
 }
 
 object Q3 extends App{
