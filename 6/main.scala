@@ -49,6 +49,7 @@ object Q4 extends App{
         else if (isOdd(n)) println("Odd")
         else println("Even")
     }
+    isOddOrEven(98)
 }
 
 object Q5 extends App{
@@ -56,15 +57,16 @@ object Q5 extends App{
         case n if (n%2==1)=> false
         case n if (n%2==0)=> true
     }
-    def sumEven(n:Int)=if (n==0) 0 else if (isEven(n)) n+sumEven(n-1) else sumEven(n-1)
+    def sumEven(n:Int):Int=if (n==0) 0 else if (isEven(n)) n+sumEven(n-1) else sumEven(n-1)
+    println(sumEven(6))
 }
 
 
-object Q5 extends App{
-    def fib(n:Int)=n match{
+object Q6 extends App{
+    def fib(n:Int):Int=n match{
         case 0 => 0
         case 1 => 1
         case _: Int =>  fib(n-1)+fib(n-2)
     }
-    
+    println(fib(12))
 }
