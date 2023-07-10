@@ -199,3 +199,86 @@ WARNING: Unmatched cancel notification for request id 327
 2023.07.10 14:57:30 INFO  Shutting down server
 2023.07.10 14:57:30 INFO  shutting down Metals
 2023.07.10 14:57:30 INFO  Exiting server
+2023.07.10 15:40:43 INFO  Started: Metals version 0.11.12 in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6' for client Visual Studio Code 1.80.0.
+Jul 10, 2023 3:40:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 10, 2023 3:40:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 10, 2023 3:40:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 10, 2023 3:40:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\.metals\metals (H2 2.1)
+Jul 10, 2023 3:40:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Jul 10, 2023 3:40:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 10, 2023 3:40:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.10 15:40:44 INFO  time: initialize in 0.76s
+Jul 10, 2023 3:40:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.07.10 15:40:45 WARN  Build server is not auto-connectable.
+2023.07.10 15:40:45 WARN  no build tool detected in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.10 15:40:45 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:40:47 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.10 15:40:50 INFO  time: code lens generation in 5.06s
+Jul 10, 2023 3:42:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+2023.07.10 15:43:12 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:43:18 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:43:26 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:43:33 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:43:46 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:43:56 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:44:28 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+Jul 10, 2023 3:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+2023.07.10 15:46:00 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+Jul 10, 2023 3:46:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 658
+2023.07.10 15:46:10 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:46:16 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:46:21 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:46:22 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:46:44 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:50:32 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:51:23 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:51:29 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:53:48 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:53:50 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:53:55 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:54:59 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:54:59 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:54:59 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:54:59 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:20 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:40 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:45 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:51 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:53 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:56:55 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 15:58:34 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:02:53 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:03 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:14 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:32 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:45 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:49 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:50 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:51 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:03:59 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:04:57 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:05:15 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:05:24 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+Jul 10, 2023 4:05:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.07.10 16:05:30 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:05:51 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.10 16:06:48 INFO  Shutting down server
+2023.07.10 16:06:48 INFO  shutting down Metals
+2023.07.10 16:06:48 INFO  Exiting server
