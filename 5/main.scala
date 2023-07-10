@@ -34,5 +34,4 @@ object  Q3 extends App{
     println(formatNames("Saman",toUpper))
     println(formatNames("Kumara",toLower))
 
-
 }
