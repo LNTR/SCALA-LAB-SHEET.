@@ -50,7 +50,10 @@ object Q4 extends App{
         else if (isOdd(n)) println("Odd")
         else println("Even")
     }
-    isOddOrEven(98)
+    isOddOrEven(10)
+    isOddOrEven(0)
+    isOddOrEven(11)
+
 }
 
 object Q5 extends App{
@@ -69,5 +72,15 @@ object Q6 extends App{
         case 1 => 1
         case _: Int =>  fib(n-1)+fib(n-2)
     }
-    println(fib(12))
+    def printFib(n:Int):Unit={
+        if (n==0)
+            print(f"${fib(0)},")
+        else
+            printFib(n-1)
+            print(f"${fib(n)},")
+
+    }
+    printFib(12)
+
+
 }
