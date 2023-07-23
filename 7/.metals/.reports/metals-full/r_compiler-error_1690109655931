@@ -1,0 +1,26 @@
+java.lang.AssertionError: NoDenotation.owner
+occurred in the presentation compiler.
+
+action parameters:
+offset: 13
+uri: file:///D:/Campus/Year%202/Semester%201/Functional%20Programming/Tutorials/7/main.scala
+text:
+var Alphabet[@@]=5;
+
+object Q1 extends App{
+
+    def encrypt(text:String):String=if (text=="") "" else encrypt()
+}
+
+
+error stacktrace:
+dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2576)
+	scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	scala.collection.immutable.List.dropWhile(List.scala:79)
+	scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+	scala.meta.internal.pc.ScalaPresentationCompiler.signatureHelp$$anonfun$1(ScalaPresentationCompiler.scala:371)

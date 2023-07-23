@@ -438,3 +438,55 @@ WARNING: Unmatched cancel notification for request id 160
 2023.07.11 10:34:19 INFO  Shutting down server
 2023.07.11 10:34:19 INFO  shutting down Metals
 2023.07.11 10:34:19 INFO  Exiting server
+2023.07.18 08:55:20 INFO  Started: Metals version 0.11.12 in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6' for client Visual Studio Code 1.80.1.
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\.metals\metals (H2 2.1)
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 18, 2023 8:55:21 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.18 08:55:21 INFO  time: initialize in 0.56s
+2023.07.18 08:55:21 WARN  Build server is not auto-connectable.
+2023.07.18 08:55:21 WARN  no build tool detected in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.18 08:55:21 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.18 08:55:24 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.18 08:55:27 INFO  time: code lens generation in 5.31s
+Jul 18, 2023 8:58:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Jul 18, 2023 8:59:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+2023.07.18 09:01:07 INFO  Shutting down server
+2023.07.18 09:01:07 INFO  shutting down Metals
+2023.07.18 09:01:07 INFO  Exiting server
+2023.07.18 09:53:22 INFO  Started: Metals version 0.11.12 in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6' for client Visual Studio Code 1.80.1.
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\.metals\metals (H2 2.1)
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 18, 2023 9:53:22 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.18 09:53:22 INFO  time: initialize in 0.56s
+2023.07.18 09:53:22 WARN  Build server is not auto-connectable.
+2023.07.18 09:53:22 WARN  no build tool detected in workspace 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.18 09:53:22 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala
+2023.07.18 09:53:27 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\6\main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.18 09:53:28 INFO  time: code lens generation in 5.22s
+2023.07.18 09:58:32 INFO  Shutting down server
+2023.07.18 09:58:32 INFO  shutting down Metals
+2023.07.18 09:58:32 INFO  Exiting server
