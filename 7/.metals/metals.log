@@ -1079,3 +1079,48 @@ Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
 2023.07.23 21:31:28 INFO  shutting down Metals
 2023.07.23 21:31:28 INFO  Shut down connection with build server.
 2023.07.23 21:31:28 INFO  Exiting server
+2023.07.25 10:38:04 INFO  Started: Metals version 1.0.0 in folders 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7' for client Visual Studio Code 1.80.1.
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7\.metals\metals (H2 2.1)
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 25, 2023 10:38:05 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.25 10:38:05 INFO  time: initialize in 0.87s
+2023.07.25 10:38:07 INFO  Attempting to connect to the build server...
+2023.07.25 10:38:07 INFO  Running BSP server List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7\.scala-build\ide-options-v2.json, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7)
+2023.07.25 10:38:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7\.metals\bsp.trace.json or C:\Users\Lakmitha\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.25 10:38:07 WARN  No build session currently active to reload.
+2023.07.25 10:38:08 INFO  BSP server: Starting compilation server
+2023.07.25 10:38:11 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7\main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Jul 25, 2023 10:38:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.07.25 10:38:15 INFO  time: code lens generation in 3.22s
+2023.07.25 10:38:15 INFO  time: code lens generation in 1.16s
+2023.07.25 10:38:18 INFO  time: Connected to build server in 10s
+2023.07.25 10:38:18 INFO  Connected to Build server: scala-cli v1.0.0
+2023.07.25 10:38:18 WARN  no build target for: D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\7\main.scala
+2023.07.25 10:38:18 INFO  time: Imported build in 0.17s
+2023.07.25 10:38:19 INFO  time: indexed workspace in 0.75s
+2023.07.25 10:45:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.25 10:45:04 INFO  time: compiled project_bd2c96d2de in 3.82s
+2023.07.25 10:45:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.25 10:45:49 INFO  time: compiled project_bd2c96d2de in 0.95s
+2023.07.25 10:45:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.25 10:45:53 INFO  time: compiled project_bd2c96d2de in 0.75s
+2023.07.25 10:46:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.25 10:46:07 INFO  time: compiled project_bd2c96d2de in 0.55s
+2023.07.25 10:54:52 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.25 10:54:52 INFO  time: compiled project_bd2c96d2de in 0.79s
+2023.07.25 10:57:34 INFO  Shutting down server
+2023.07.25 10:57:34 INFO  shutting down Metals
+2023.07.25 10:57:34 INFO  Shut down connection with build server.
+2023.07.25 10:57:34 INFO  Exiting server

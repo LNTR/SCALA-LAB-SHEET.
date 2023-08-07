@@ -1,0 +1,40 @@
+java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/Lakmitha/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/scala/collection/immutable/List.scala
+occurred in the presentation compiler.
+
+action parameters:
+offset: 288
+uri: file:///D:/Campus/Year%202/Semester%201/Functional%20Programming/Tutorials/8/main.scala
+text:
+object Q1 extends App{
+    val filterEvenNumbers=(numberList:List[Int])=>{numberList.filter(number=>{
+        (number%2)==1}
+        )
+    }
+    println(filterEvenNumbers(List(1,2,3,4,5,6)));
+}
+
+object Q2 extends App{
+    val calculateSquare=(numberList:List[Int])=>{numberList.m@@(number=>{
+        (number%2)==1}
+        )
+    }
+}
+
+
+error stacktrace:
+sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	java.nio.file.Paths.get(Paths.java:84)
+	scala.meta.io.AbsolutePath$.apply(AbsolutePath.scala:60)
+	scala.meta.internal.metals.MetalsSymbolSearch.$anonfun$definitionSourceToplevels$2(MetalsSymbolSearch.scala:62)
+	scala.Option.map(Option.scala:242)
+	scala.meta.internal.metals.MetalsSymbolSearch.definitionSourceToplevels(MetalsSymbolSearch.scala:61)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.sortSubclasses(MatchCaseCompletions.scala:305)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.matchContribute(MatchCaseCompletions.scala:253)
+	scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:371)
+	scala.meta.internal.pc.completions.Completions.completions(Completions.scala:176)
+	scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+	scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:119)

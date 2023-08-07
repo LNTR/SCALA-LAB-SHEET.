@@ -60,5 +60,8 @@ object Q1 extends App{
 
     println(cipher("Hello",encryptText))
     println(cipher("Mjqqt",decryptText))
+    
+    println(cipher("ABCDefgh12",encryptText))
+    // println(cipher("FGHIjklm",decryptText))
 
 }
