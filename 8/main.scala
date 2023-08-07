@@ -1,6 +1,6 @@
 object Q1 extends App{
-    val filterEvenNumbers=(numberList:List[Int])=>{numberList.filter(number=>{
-        (number%2)==1}
+    val filterEvenNumbers=(numberList:List[Int])=>{
+        numberList.filter(number=>{ (number%2)==1 }   
         )
     }
     println(filterEvenNumbers(List(1,2,3,4,5,6)));
@@ -19,12 +19,12 @@ object Q3 extends App{
     
     val filterPrime=(numberList:List[Int])=>{numberList.filter(number=>{
 
-        def isPrime(a:Int,number:Int):Boolean=number match{
+        def isPrime(i:Int,number:Int):Boolean=number match{
             case 2=>true
             case 1|0=>false
             case number if (number%2==0)=>false
-            case number if (number==a) =>true
-            case number=> isPrime(a+1,number)
+            case number if (number==i) =>true
+            case number=> isPrime(i+1,number)
 
         }
 
