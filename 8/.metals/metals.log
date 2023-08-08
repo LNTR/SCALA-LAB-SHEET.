@@ -264,3 +264,52 @@ WARNING: Unmatched cancel notification for request id 2014
 2023.08.07 21:08:21 INFO  time: compiled project_bd2c96d2de in 0.2s
 2023.08.07 21:08:24 INFO  compiling project_bd2c96d2de (1 scala source)
 2023.08.07 21:08:24 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.07 21:10:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:10:50 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.07 21:11:14 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:11:14 INFO  time: compiled project_bd2c96d2de in 0.18s
+2023.08.07 21:11:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:11:22 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.07 21:11:23 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:11:23 INFO  time: compiled project_bd2c96d2de in 0.19s
+2023.08.07 21:11:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:11:28 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.07 21:11:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:11:29 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.07 21:12:51 INFO  Shutting down server
+2023.08.07 21:12:51 INFO  shutting down Metals
+2023.08.07 21:12:51 INFO  Shut down connection with build server.
+2023.08.07 21:12:51 INFO  Exiting server
+2023.08.08 13:18:21 INFO  Started: Metals version 1.0.0 in folders 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8' for client Visual Studio Code 1.81.0.
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.metals\metals (H2 2.1)
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 08, 2023 1:18:21 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.08 13:18:21 INFO  time: initialize in 0.55s
+2023.08.08 13:18:22 INFO  Attempting to connect to the build server...
+2023.08.08 13:18:22 INFO  Running BSP server List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.scala-build\ide-options-v2.json, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8)
+2023.08.08 13:18:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.metals\bsp.trace.json or C:\Users\Lakmitha\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.08 13:18:22 WARN  No build session currently active to reload.
+2023.08.08 13:18:23 INFO  BSP server: Starting compilation server
+2023.08.08 13:18:24 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.08 13:18:26 INFO  time: code lens generation in 3.54s
+2023.08.08 13:18:30 INFO  time: Connected to build server in 7.44s
+2023.08.08 13:18:30 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.08 13:18:30 INFO  time: Imported build in 0.13s
+2023.08.08 13:18:31 INFO  time: indexed workspace in 1s
+2023.08.08 13:18:37 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 13:18:37 INFO  time: compiled project_bd2c96d2de in 0.89s
+2023.08.08 13:18:53 INFO  Shutting down server
+2023.08.08 13:18:53 INFO  shutting down Metals
+2023.08.08 13:18:53 INFO  Shut down connection with build server.
+2023.08.08 13:18:53 INFO  Exiting server

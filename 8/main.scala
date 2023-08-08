@@ -1,6 +1,6 @@
 object Q1 extends App{
     val filterEvenNumbers=(numberList:List[Int])=>{
-        numberList.filter(number=>{ (number%2)==1 }   
+        numberList.filter(number=>{ (number%2)==0 }   
         )
     }
     println(filterEvenNumbers(List(1,2,3,4,5,6)));
