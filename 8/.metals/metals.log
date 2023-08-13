@@ -313,3 +313,50 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.08.08 13:18:53 INFO  shutting down Metals
 2023.08.08 13:18:53 INFO  Shut down connection with build server.
 2023.08.08 13:18:53 INFO  Exiting server
+2023.08.11 14:49:49 INFO  Started: Metals version 1.0.0 in folders 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8' for client Visual Studio Code 1.81.1.
+Aug 11, 2023 2:49:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 11, 2023 2:49:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 11, 2023 2:49:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 11, 2023 2:49:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.metals\metals (H2 2.1)
+Aug 11, 2023 2:49:50 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Aug 11, 2023 2:49:50 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 11, 2023 2:49:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.11 14:49:50 INFO  time: initialize in 0.93s
+2023.08.11 14:49:51 INFO  Attempting to connect to the build server...
+2023.08.11 14:49:51 INFO  Running BSP server List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.scala-build\ide-options-v2.json, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8)
+2023.08.11 14:49:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\.metals\bsp.trace.json or C:\Users\Lakmitha\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.11 14:49:51 WARN  No build session currently active to reload.
+2023.08.11 14:49:53 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 14:49:53 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 14:49:53 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 14:49:55 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 14:49:55 INFO  BSP server: Starting compilation server
+2023.08.11 14:49:56 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\8\main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.11 14:50:00 INFO  time: code lens generation in 9.33s
+2023.08.11 14:50:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.11 14:50:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.11 14:50:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.11 14:50:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.11 14:50:06 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 14:50:06 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 14:50:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 14:50:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 14:50:07 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 14:50:07 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 14:50:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 14:50:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 14:50:08 INFO  time: Connected to build server in 17s
+2023.08.11 14:50:08 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.11 14:50:08 INFO  time: Imported build in 0.2s
+2023.08.11 14:50:09 INFO  time: indexed workspace in 0.99s
+2023.08.11 15:19:19 INFO  Shutting down server
+2023.08.11 15:19:19 INFO  shutting down Metals
+2023.08.11 15:19:19 INFO  Shut down connection with build server.
+2023.08.11 15:19:19 INFO  Exiting server
