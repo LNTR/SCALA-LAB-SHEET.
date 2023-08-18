@@ -25,10 +25,11 @@ object  Q2 extends App{
 
 object  Q3 extends App{
     val formatNames=(name:String,function:String=>String)=>function(name)
-    
-    println(formatNames("Niroshan",(string:String)=>string.toUpperCase()))
-    println(formatNames("Benny",(string:String)=>string.toLowerCase()))
-    println(formatNames("Saman",(string:String)=>string.toUpperCase()))
-    println(formatNames("Kumara",(string:String)=>string.toLowerCase()))
+    val toLower:String=>String=string=>string.toLowerCase()
+    val toUpper:String=>String=string=>string.toUpperCase()
+    println(formatNames("Niroshan",toLower))
+    println(formatNames("Benny",toUpper))
+    println(formatNames("Saman",toLower))
+    println(formatNames("Kumara",toUpper))
 
 }
