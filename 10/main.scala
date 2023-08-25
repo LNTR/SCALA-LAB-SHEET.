@@ -1,8 +1,7 @@
-import Q3.account1
 class RationalNumber(val value:Double):
     
     def neg:RationalNumber=RationalNumber((-1)*value)
-    def -(rightHand:RationalNumber)=RationalNumber(this.value-rightHand.value)
+    def sub(rightHand:RationalNumber)=RationalNumber(this.value-rightHand.value)
     override def toString(): String = this.value.toString() 
 
 object Q1 extends App{
@@ -14,7 +13,7 @@ object Q2 extends App{
     val x=RationalNumber(3.0/4.0)
     val y=RationalNumber(5.0/8.0)
     val z=RationalNumber(2.0/7.0)
-    println(x-y-z)   
+    println(x.sub(y).sub(z))   
 }
 
 class Account(var amount:Double=0.0):
