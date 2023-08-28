@@ -1,0 +1,280 @@
+2023.08.28 12:02:44 INFO  Started: Metals version 1.0.0+84-80283cf8-SNAPSHOT in folders 'D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11' for client Visual Studio Code 1.81.1.
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\.metals\metals (H2 2.1)
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.016s)
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 28, 2023 12:02:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.027s)
+2023.08.28 12:02:44 INFO  time: initialize in 0.65s
+2023.08.28 12:02:53 INFO  Running List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11)
+2023.08.28 12:02:53 INFO  Attempting to connect to the build server...
+2023.08.28 12:02:53 INFO  Running BSP server List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\.scala-build\ide-options-v2.json, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11)
+2023.08.28 12:02:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\.metals\bsp.trace.json or C:\Users\Lakmitha\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 12:02:53 INFO  Attempting to connect to the build server...
+2023.08.28 12:02:53 INFO  Running BSP server List(C:\Users\Lakmitha\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\.scala-build\ide-options-v2.json, D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11)
+2023.08.28 12:02:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\.metals\bsp.trace.json or C:\Users\Lakmitha\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 12:02:55 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: (watching) Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:55 INFO  BSP server: Starting compilation server
+2023.08.28 12:02:58 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.28 12:02:58 INFO  BSP server: Starting compilation server
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:03 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:04 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:04 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 12:03:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 12:03:05 INFO  time: Connected to build server in 11s
+2023.08.28 12:03:05 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.28 12:03:05 INFO  time: Connected to build server in 11s
+2023.08.28 12:03:05 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.28 12:03:06 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 3.775s)
+2023.08.28 12:03:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:03:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:03:07 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 5.408s)
+2023.08.28 12:03:07 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.0' (since 5.428s)
+2023.08.28 12:03:10 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Aug 28, 2023 12:03:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2023.08.28 12:03:11 INFO  time: Imported build in 0.12s
+2023.08.28 12:03:12 INFO  no build target found for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2023.08.28 12:03:11 INFO  time: indexed workspace in 0.4s
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Aug 28, 2023 12:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.08.28 12:03:12 INFO  time: indexed workspace in 1.3s
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+Aug 28, 2023 12:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 112
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 128
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+Aug 28, 2023 12:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+Aug 28, 2023 12:05:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 444
+2023.08.28 12:05:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:05:16 INFO  time: compiled project_bd2c96d2de in 1.42s
+2023.08.28 12:05:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:05:45 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 2m 43.368s)
+2023.08.28 12:05:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:05:46 INFO  time: compiled project_bd2c96d2de in 0.53s
+2023.08.28 12:07:14 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:07:14 INFO  time: compiled project_bd2c96d2de in 0.37s
+2023.08.28 12:08:17 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:08:17 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.28 12:10:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:10:12 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.08.28 12:10:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:10:22 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 7m 21.06s)
+2023.08.28 12:10:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:10:22 INFO  time: compiled project_bd2c96d2de in 0.55s
+2023.08.28 12:11:08 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:11:08 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.28 12:11:09 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:14 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:17 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:20 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:20 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:22 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:23 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:23 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:11:26 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.28 12:11:27 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:29 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:30 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:31 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:32 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:11:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:11:32 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.08.28 12:11:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:11:40 INFO  time: compiled project_bd2c96d2de in 91ms
+2023.08.28 12:11:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:11:50 INFO  time: compiled project_bd2c96d2de in 0.23s
+Aug 28, 2023 12:12:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1089
+2023.08.28 12:13:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:13:15 INFO  time: compiled project_bd2c96d2de in 82ms
+2023.08.28 12:13:15 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:22 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:23 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:24 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:13:24 INFO  time: compiled project_bd2c96d2de in 61ms
+2023.08.28 12:13:24 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:31 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:32 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:34 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:36 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:36 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:39 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:39 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:13:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:13:40 INFO  time: compiled project_bd2c96d2de in 0.22s
+2023.08.28 12:13:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:13:48 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.28 12:14:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:14:32 INFO  time: compiled project_bd2c96d2de in 87ms
+2023.08.28 12:14:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:14:34 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.28 12:14:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:14:46 INFO  time: compiled project_bd2c96d2de in 0.5s
+2023.08.28 12:14:46 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:49 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:49 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:50 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:14:51 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.28 12:14:51 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:52 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:53 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:54 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:55 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:56 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:57 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:14:57 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:14:57 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.08.28 12:15:10 INFO  compiling project_bd2c96d2de (1 scala source)
+Exception in thread "pool-6-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.08.28 12:15:10 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.08.28 12:17:25 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:17:25 INFO  time: compiled project_bd2c96d2de in 0.3s
+Aug 28, 2023 12:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1878
+2023.08.28 12:19:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:04 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.28 12:19:11 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:11 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.28 12:19:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:22 INFO  time: compiled project_bd2c96d2de in 72ms
+2023.08.28 12:19:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:26 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.28 12:19:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:28 INFO  time: compiled project_bd2c96d2de in 81ms
+2023.08.28 12:19:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:29 WARN  Using indexes to guess the definition of celciusList
+2023.08.28 12:19:29 INFO  time: compiled project_bd2c96d2de in 72ms
+2023.08.28 12:19:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:29 INFO  time: compiled project_bd2c96d2de in 67ms
+2023.08.28 12:19:30 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:30 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.28 12:19:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:19:54 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.28 12:19:54 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:19:55 WARN  Could not load snapshot text for D:\Campus\Year 2\Semester 1\Functional Programming\Tutorials\11\main.scala
+2023.08.28 12:20:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 12:20:03 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.28 12:20:07 INFO  Shutting down server
+2023.08.28 12:20:07 INFO  shutting down Metals
+2023.08.28 12:20:07 INFO  Shut down connection with build server.
+2023.08.28 12:20:07 INFO  Exiting server

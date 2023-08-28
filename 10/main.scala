@@ -10,10 +10,12 @@ object Q1 extends App{
 }
 
 object Q2 extends App{
+
     val x=RationalNumber(3.0/4.0)
     val y=RationalNumber(5.0/8.0)
     val z=RationalNumber(2.0/7.0)
     println(x.sub(y).sub(z))   
+
 }
 
 class Account(var amount:Double=0.0):
@@ -41,7 +43,7 @@ object Q3 extends App{
 
     account1.transfer(account2,500.00)
     
-    println(account1.amount)
+    println(account1)
     println(account2.amount)
 
 }
